@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nageshwaran Manikumar - Full-Stack Software Developer specializing in Python, JavaScript, React, and Node.js. Currently pursuing Master's in CS at Stevens Institute of Technology.">
+    <meta name="keywords" content="Software Developer, Full-Stack Engineer, Python, JavaScript, React, Node.js, Portfolio">
+    <meta name="author" content="Nageshwaran Manikumar">
+    <meta property="og:title" content="Nageshwaran Manikumar | Software Developer">
+    <meta property="og:description" content="Full-Stack Developer building scalable web applications">
+    <meta property="og:type" content="website">
+    <title>Nageshwaran Manikumar | Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Matrix Rain Background Canvas -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Custom Cursor Elements -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-logo">
+            <span class="bracket">&lt;</span>NM<span class="bracket">/&gt;</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a class="nav-link" data-section="work">Work</a></li>
+            <li><a class="nav-link" data-section="skills">Skills</a></li>
+            <li><a class="nav-link" data-section="experience">Experience</a></li>
+            <li><a class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <!-- Terminal Window Animation -->
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">nageshwaran@portfolio:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span>
+                            <span class="command typing-animation">whoami</span>
+                        </div>
+                        <div class="terminal-output">Full-Stack Developer</div>
+                    </div>
+                </div>
+                
+                <div class="hero-label">SOFTWARE DEVELOPER</div>
+                <h1 class="hero-title">
+                    I build <span class="highlight">digital</span><br/>
+                    experiences that<br/>
+                    actually work.
+                </h1>
+                <p class="hero-subtitle">
+                    Currently pursuing my Master's in CS at Stevens Institute of Technology. 
+                    Previously interned at Triple Space Media and Xypnotix, where I built APIs, 
+                    optimized databases, and shipped features used by thousands.
+                </p>
+                <div class="hero-cta">
+                    <a class="cta-primary" data-section="work">See my work</a>
+                    <a class="cta-secondary" data-section="contact">Get in touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="/1.jpeg" alt="Nageshwaran Manikumar" class="profile-image">
+                        <div class="profile-status">
+                            <span class="status-dot"></span>
+                            <span>Available for hire</span>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Nageshwaran Manikumar</h3>
+                        <p class="profile-role">Full-Stack Developer/ SDE</p>
+                        <p class="profile-location">📍 Jersey City, NJ</p>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">1+</span>
+                                <span class="stat-label">Years Exp</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">10+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                        </div>
+                        <a href="https://leetcode.com/u/nageshwaran_manikumar/" target="_blank" rel="noopener noreferrer" class="leetcode-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                            </svg>
+                            <span>LeetCode Profile</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Work/Projects Section -->
+    <section id="work">
+        <div class="section-number">01 / SELECTED WORK</div>
+        <h2 class="section-title">Projects that matter</h2>
+        <div class="work-grid">
+            <!-- Project 1: NYC Arrest Data Platform -->
+            <article class="work-item fade-in">
+                <div class="work-number">01</div>
+                <div class="work-content">
+                    <h3>NYC Arrest Data Platform</h3>
+                    <div class="work-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Chart.js</span>
+                    </div>
+                    <p class="work-description">
+                        Full-stack web application processing 212,000+ arrest records from NYC Open Data. 
+                        Built interactive dashboards for crime trend analysis, implemented secure authentication, 
+                        and created data export features. Collaborated with 5 developers using Git.
+                    </p>
+                    <a href="https://github.com/gwh072308/CS546_FinalProject_Group28" target="_blank" rel="noopener noreferrer" class="work-link">
+                        View on GitHub →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Project 2: Strava Lite API -->
+            <article class="work-item fade-in">
+                <div class="work-number">02</div>
+                <div class="work-content">
+                    <h3>Strava Lite API</h3>
+                    <div class="work-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">REST</span>
+                    </div>
+                    <p class="work-description">
+                        Workout tracking REST API with user management, activity logging, and social features. 
+                        Implements proper HTTP conventions, UUID-based authentication, and friend-following system 
+                        with comprehensive access control logic.
+                    </p>
+                    <a href="https://github.com/Nageshwaran-Cyberbot/Strava_Lite" target="_blank" rel="noopener noreferrer" class="work-link">
+                        View on GitHub →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Project 3: This Portfolio -->
+            <article class="work-item fade-in">
+                <div class="work-number">03</div>
+                <div class="work-content">
+                    <h3>Interactive Portfolio</h3>
+                    <div class="work-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <p class="work-description">
+                        Custom-designed developer portfolio with unique animations, Matrix rain background effect, 
+                        terminal-style UI, and brutalist-inspired aesthetic. Built from scratch without templates 
+                        to showcase both personality and technical skills.
+                    </p>
+                    <a href="#work" class="work-link">
+                        You're looking at it →
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-number">02 / CAPABILITIES</div>
+        <h2 class="section-title">What I work with</h2>
+        <div class="skills-container">
+            <div class="skill-group fade-in">
+                <div class="skill-icon">{ }</div>
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                    <li>C++ (Advanced)</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="skill-group fade-in">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li>React.js</li>
+                    <li>jQuery</li>
+                    <li>Handlebars</li>
+                    <li>Chart.js</li>
+                </ul>
+            </div>
+            <div class="skill-group fade-in">
+                <div class="skill-icon">[ ]</div>
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Flask</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+            <div class="skill-group fade-in">
+                <div class="skill-icon">///</div>
+                <h3>Databases</h3>
+                <ul class="skill-list">
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skill-group fade-in">
+                <div class="skill-icon">$_</div>
+                <h3>Tools</h3>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>Postman</li>
+                    <li>GitHub Actions</li>
+                    <li>Pytest</li>
+                </ul>
+            </div>
+            <div class="skill-group fade-in">
+                <div class="skill-icon">##</div>
+                <h3>Concepts</h3>
+                <ul class="skill-list">
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                    <li>OOP</li>
+                    <li>Agile</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-number">03 / CAREER</div>
+        <h2 class="section-title">Where I've worked</h2>
+        <div class="experience-list">
+            <!-- Experience 1: Triple Space Media -->
+            <article class="experience-card fade-in">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Software Development Engineer Intern</h3>
+                        <p class="experience-company">Triple Space Media — Chennai, India</p>
+                    </div>
+                    <div class="experience-date">JUN–SEP 2024</div>
+                </div>
+                <ul class="experience-points">
+                    <li>Built 15+ REST API endpoints with Flask processing 10,000+ daily requests at 99.9% uptime</li>
+                    <li>Optimized PostgreSQL queries reducing latency by 30% through strategic indexing and caching</li>
+                    <li>Developed automated testing framework with Pytest achieving 95% code coverage</li>
+                    <li>Collaborated in 10-person agile team on code reviews and sprint planning</li>
+                </ul>
+            </article>
+
+            <!-- Experience 2: Xypnotix -->
+            <article class="experience-card fade-in">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Full-Stack Engineer Intern</h3>
+                        <p class="experience-company">Xypnotix — Chennai, India</p>
+                    </div>
+                    <div class="experience-date">JUL–DEC 2023</div>
+                </div>
+                <ul class="experience-points">
+                    <li>Built project management dashboard with React/Node.js serving 25+ teams</li>
+                    <li>Refactored 40+ components reducing frontend errors by 25%</li>
+                    <li>Contributed to system improvements increasing uptime from 97% to 99.7%</li>
+                    <li>Set up monitoring enabling 40% faster incident detection</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-number">04 / GET IN TOUCH</div>
+        <div class="contact-content">
+            <h2>Let's build something</h2>
+            <p>
+                I'm currently looking for Software Development Engineer opportunities where I can 
+                contribute immediately and grow rapidly. Open to full-time roles starting Summer 2026.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:nageshwaran.manikumar@gmail.com" class="contact-item">
+                    <span class="contact-label">EMAIL</span>
+                    <span class="contact-value">Send a message</span>
+                </a>
+                <a href="https://linkedin.com/in/nageshwaranmanikumar" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <span class="contact-label">LINKEDIN</span>
+                    <span class="contact-value">Connect</span>
+                </a>
+                <a href="https://github.com/Nageshwaran-Cyberbot" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <span class="contact-label">GITHUB</span>
+                    <span class="contact-value">View code</span>
+                </a>
+                <a href="tel:+15513581782" class="contact-item">
+                    <span class="contact-label">PHONE</span>
+                    <span class="contact-value">(551) 358-1782</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-text">© 2026 Nageshwaran Manikumar</div>
+        <div class="footer-links">
+            <a href="https://github.com/Nageshwaran-Cyberbot" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://linkedin.com/in/nageshwaranmanikumar" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+            <a href="mailto:nageshwaran.manikumar@gmail.com" class="footer-link">Email</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
